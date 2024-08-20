@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    grid-column: span 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header p {
+    text-align: right;
+}
+
+header .copyright {
+    font-size: 12px;
+    font-style: italic;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-section {
+    max-width: 60%;
+}
+
+.left-section h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.left-section p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.right-section .info,
+.right-section .services,
+.right-section .links {
+    margin-bottom: 30px;
+}
+
+.right-section h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.right-section p,
+.right-section ul {
+    line-height: 1.6;
+}
+
+.right-section ul {
+    list-style: none;
+}
+
+.right-section ul li {
+    margin-bottom: 8px;
+}
+
+.right-section .download-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
