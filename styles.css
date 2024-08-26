@@ -22,11 +22,6 @@ header {
     margin-bottom: 30px;
 }
 
-header h1 {
-    font-size: 18px;
-    font-weight: bold;
-}
-
 header p {
     text-align: right;
 }
@@ -41,6 +36,11 @@ section {
     font-size: 12px;
     text-wrap: wrap;
     margin: 7px;
+}
+
+header h1 {
+    font-size: 18px;
+    font-weight: bold;
 }
 
 h2 {
