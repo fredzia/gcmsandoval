@@ -14,14 +14,6 @@ body {
     color: #424242;
 }
 
-.container {
-    max-width: 70%;
-    width: 100%;
-    display: grid;
-    gap: 20px;
-    padding: 30px;
-}
-
 header {
     grid-column: span 2;
     display: flex;
@@ -31,7 +23,7 @@ header {
 }
 
 header h1 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -66,6 +58,14 @@ li {
 ul {
     margin: 0;
     padding: 0;
+}
+
+.container {
+    max-width: 70%;
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    padding: 30px;
 }
 
 .filme p {
