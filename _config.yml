@@ -12,10 +12,6 @@ author:
   name: Giancarlo M. Sandoval
   email: gsmicro.nics@gmail.com
 
-# Plugins
-plugins:
-  - jekyll-feed # Enables feed for the site
-
 # Optional: Specify directories
 include:
   - sections # Include the 'sections' folder if needed
