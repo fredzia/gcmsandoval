@@ -6,7 +6,6 @@ url: "https://fredzia.github.io" # Replace 'yourusername' with your actual GitHu
 
 # Build settings
 markdown: kramdown # You can use kramdown or any other markdown engine
-theme: minima # You can specify a theme, like minima, or leave it out for default settings
 
 # Author information
 author:
