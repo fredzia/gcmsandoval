@@ -1,0 +1,23 @@
+# Site settings
+title: Giancarlo M. Sandoval
+description: A website showcasing works and projects.
+baseurl: "" # Leave this empty if you are deploying to the root
+url: "https://fredzia.github.io" # Replace 'yourusername' with your actual GitHub username
+
+# Build settings
+markdown: kramdown # You can use kramdown or any other markdown engine
+
+# Author information
+author:
+  name: Giancarlo M. Sandoval
+  email: gsmicro.nics@gmail.com
+
+# Optional: Specify directories
+include:
+  - sections # Include the 'sections' folder if needed
+
+# Optional: Exclude files/folders
+exclude:
+  - README.md # Exclude files you don't want to publish
+  - Gemfile
+  - Gemfile.lock

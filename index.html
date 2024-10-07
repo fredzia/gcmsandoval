@@ -1,4 +1,8 @@
-    <!DOCTYPE html>
+---
+layout: default
+---
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -21,64 +25,33 @@
         <main>
             <section class="filme">
                 <h2>Filme</h2>
-                <ul>
-                    <li>Micha, festhalten! (2024, 36’ Digital)</li>
-                    <li>Zig (2024, 12’ Digital; Besetzung: Sarah Pech)</li>
-                    <li>Index (2024, 6’ Digital) zs mit Sidney Mandros.</li>
-                    <li>Chromalehre/Auto Exposure (2024, 5‘ Digital) zs mit Sidney Mandros.</li>
-                    <li>Tel que tu le sèmes (2024, In Postproduktion; Besetzung: Xandra Popescu)</li>
-                    <li>u.a. (2024, In Postproduktion; Besetzung: Lilith Krause, Leonie Jenning, Insa Ewen)</li>
-                    <li>Ion (2024, In Postproduktion)</li>
-                    <li>Berechnungen I - Schatten am Strand (2024, In Postproduktion; Besetzung: Luna Caric, Emma König)</li>
-                </ul>
+                {% include_relative sections/filme.html %}
             </section>
 
             <section class="ausbildung">
                 <h2>Ausbildung</h2>
-                <ul>
-                    <li>BA. Kommunikationswissenschaft - Universidad de Lima.</li>
-                    <li>Transdisciplinary Studies - The New Centre for Research & Practice.</li>
-                    <li>PhD. Medien und Filmwissenschaft - Birkbeck, University of London - Abgebrochen.</li>
-                </ul>
+                {% include_relative sections/ausbildung.html %}
             </section>
 
             <section class="projekte">
                 <h2>Projekte</h2>
-                <ul>
-                    <li>Neurodiverse Gemeinschaft e.V. Ein Verein für die Rechte queerer neurodivergenter Menschen. Gegründet mit Katharina Buch und Johanna Müller.</li>
-                    <li>Nowhen. Online Plattform für kreatives Schreiben über Film und FLINTA* Autor*innen. Gegründet mit Nele S. Kaiser</li>
-                    <li>LAC Films. Filmproduktion. Gegründet mit Sidney Mandros.</li>
-                </ul>
+                {% include_relative sections/projekte.html %}
             </section>
 
             <section class="misc">
                 <h2>Misc</h2>
-                <ul>
-                    <li>Vorträge in Konferenzen (University of Leicester, Goldsmiths, University of London, Royal Geographical Society, Cambridge University, Birkbeck, University of London)</li>
-                    <li>Beratung (MTV LA, Masterstudium Kommunikationswissenschaft, PUCP)</li>    
-                    <li>Artikel und Interviews für Websites/Magazines (Vice, Catedra de Datos, Revista Anfibia, Filmlöwin, Kolik, Fundación Telefónica, Voces en el Fenix, ICA Student Forum, Ventana Indiscreta)</li>
-                    <li>Übersetzungen (Laboria Cuboniks, Siegfried Zielinski, Jaden Adams, Peter Wolfendale, After Us Magazine)</li>
-                    <li>Präsentationen (Videothek @ Volksbühne Berlin)</li>
-                    <li>Festival-Berichterstattung (Around the World in 14 Films, Berlinale, Cannes, Cinéma du Réel, Diagonale, Feminist Elsewheres, FID Marseille, Hamburg Film Festival, Internationales Frauen Film Festival, Kurzfilm Dresden, Locarno, Max Ophüls Preis, Venedig, Viennale)</li>
-                    <li>Jury-Teilnahme (Female Filmmakers Festival Berlin)</li>
-                </ul>
+                {% include_relative sections/misc.html %}
             </section>
 
             <section class="fruhere-positionen">
                 <h2>Frühere Positionen</h2>
-                <ul>
-                    <li>Forschungsassistenz (Umweltgeschichte, Semiotik, Digitale Anthropologie mit unterschiedlichen Professor*innen @ Universidad de Lima)</li>
-                    <li>Projektassistenz (bei Innovation-Labs, Fundacion Roberto Carcelen und CTPL, Creative Technologies Prototyping Lab mit MIT Student*innen)</li>
-                    <li>Webdesign (Wordpress: HTML, PHP, CSS)  </li>
-                    <li>Communications Officer (Holochain, Distributed app framework with P2P networking)</li>
-                    <li>Mitbegründer*in und Teil der Verwaltungstätigkeit (COO) bei Special Circumstances LLC.</li>
-                </ul>
+                {% include_relative sections/fruhere-positionen.html %}
             </section>
         </main>
     </div>
     <footer>
         <a href="mailto:gsmicro.nics@gmail.com">gsmicro.nics[at]gmail[dot]com</a>
-    </footer>    
+    </footer>
 </body>
 
 </html>
