@@ -3,7 +3,7 @@ name: Deploy Jekyll content to Pages
 
 on:
   push:
-    branches: ["test/jekyll"]  # Change this to your desired branch
+    branches: ["main"]  # Change this to your desired branch
   workflow_dispatch:
 
 permissions:
